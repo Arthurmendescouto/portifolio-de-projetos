@@ -8,6 +8,7 @@ body{
 #title{
     text-align: center;
     font-size: 30px;
+    color: white;
 }
 #conteudo{
     background-color:#024059
@@ -41,34 +42,33 @@ nav>a:hover{
     .actived{
         background-color: rgba(14, 172, 0, 0.884);
     }
-    img{
-        padding: 40px;
-        width: 200px;
+    #box{
+        margin: auto;
+        margin-top: 60px;
+        background-color: rgba(0, 0, 0, 0.699);
+        width: 600px;
+        height: 400px;
+        border-radius: 10px;
+        color: white;
+        padding: 5px;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        
         
     }
-.linkconf{
-    
-    background-color: rgba(78, 78, 78, 0.87);
-    padding: 20px;
-    margin-top: -44px;
-    margin-left: 40px;
-    width: 160px;
-    border-radius: 5px;
-    border:1px solid rgba(0, 0, 0, 0.74);
-    box-shadow: -2px 3px 0 #3d3d3d, -4px 6px 0 #000;
-    text-align: center;
-}
-.linkconf>a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px ;
-     font-weight: bold;
-}
-
-.linkconf:hover{
-    padding: 22px;
-    background-color: rgb(192, 1, 10);
-    box-shadow: -2px 3px 0 #202020, -4px 6px 0 #000;
-    cursor: pointer;
-    
-}
+    h2>a{
+        
+        color: rgba(0, 0, 255, 0.774);
+        text-decoration: none;
+    }
+    h2>a:hover{
+        color: rgb(0, 0, 255);
+    }
+    ul{
+        padding: 30px;
+        
+    }

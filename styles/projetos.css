@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#024059 ;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#conteudo{
+    background-color:#024059
+}
+
+nav{
+   background-color: #0378A6;
+   
+   
+   display: flex;
+   width: max-content;
+   
+}
+nav>a{
+    background-color: #05f2da6b;
+padding: 10px;
+border: solid 1px black;
+border-radius: 5px;
+
+text-decoration: none;
+color: black;
+}
+nav>a:hover{
+    background-color: rgba(19, 212, 2, 0.884);
+}
+
+    
+    #menu{
+        background-color: #0378A6;
+    }
+    .actived{
+        background-color: rgba(14, 172, 0, 0.884);
+    }
+    img{
+        padding: 40px;
+        width: 200px;
+        
+    }
+.linkdex{
+    
+    background-color: rgba(78, 78, 78, 0.87);
+   padding: 20px;
+   width: 160px;
+   
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.74);
+    box-shadow: -2px 3px 0 #3d3d3d, -4px 6px 0 #000;
+    position: relative;
+    
+}
+.linkdex>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px ;
+     font-weight: bold;
+}
+
+.linkdex:hover{
+    padding: 22px;
+    background-color: rgb(192, 1, 10);
+    box-shadow: -2px 3px 0 #202020, -4px 6px 0 #000;
+    cursor: pointer;
+    
+}
+.linkcalc{
+    padding: 22px;
+    width: 160px;
+    background-color: rgba(78, 78, 78, 0.87);
+   
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.74);
+    box-shadow: -2px 3px 0 #3d3d3d, -4px 6px 0 #000;
+    position: relative;
+    
+}
+.linkcalc>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px ;
+     font-weight: bold;
+}
+
+.linkcalc:hover{
+    
+    padding: 22px;
+    background-color: rgb(192, 1, 10);
+    box-shadow: -2px 3px 0 #202020, -4px 6px 0 #000;
+    cursor: pointer;
+    
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#containerLink{
+    display: flex;
+    justify-content:space-around;
+    margin-top: -40px;
+}
+#container{
+    display: flex;
+    justify-content:space-around;
+    
+}
